@@ -2,7 +2,7 @@
 
 Inspired by Adventure in Prolog
 
-INCOMPLETE!!!
+Just a few examples are implemented.
 
 ## License
 
@@ -13,8 +13,12 @@ Distributed under the Eclipse Public License, the same as Clojure.
 
 ## Example run
 
-nani.clj
+```clj
+user=> (load "adventure_in_core_logic/nani")
+user=> (in-ns 'adventure-in-core-logic.nani)
+```
 
+```clj
 adventure-in-core-logic.nani> (look)
 You are in the kitchen
 You can see: 
@@ -83,3 +87,4 @@ You can go to:
 nil
 adventure-in-core-logic.nani> (run* [q] (is_contained_in q 'desk))
 (flashlight envelope key stamp)
+```
