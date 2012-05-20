@@ -19,7 +19,7 @@ user=> (in-ns 'adventure-in-core-logic.nani)
 ```
 
 ```clj
-adventure-in-core-logic.nani> (look)
+adventure-in-core-logic.nani=> (look)
 You are in the kitchen
 You can see: 
    crackers
@@ -30,28 +30,28 @@ You can go to:
    dining_room
    office
 nil
-adventure-in-core-logic.nani> (take_now 'apple)
+adventure-in-core-logic.nani=> (take_now 'apple)
 taken
 nil
-adventure-in-core-logic.nani> (inventory)
+adventure-in-core-logic.nani=> (inventory)
 You have: 
 apple
 nil
-adventure-in-core-logic.nani> (goto 'dining_room)
+adventure-in-core-logic.nani=> (goto 'dining_room)
 You are in the dining_room
 You can see: 
 You can go to: 
    kitchen
    hall
 nil
-adventure-in-core-logic.nani> (goto 'hall)
+adventure-in-core-logic.nani=> (goto 'hall)
 You are in the hall
 You can see: 
 You can go to: 
    dining_room
    office
 nil
-adventure-in-core-logic.nani> (goto 'office)
+adventure-in-core-logic.nani=> (goto 'office)
 You are in the office
 You can see: 
    desk
@@ -60,22 +60,22 @@ You can go to:
    hall
    kitchen
 nil
-adventure-in-core-logic.nani> (take_now 'computer)
+adventure-in-core-logic.nani=> (take_now 'computer)
 taken
 nil
-adventure-in-core-logic.nani> (inventory)
+adventure-in-core-logic.nani=> (inventory)
 You have: 
 computer
 apple
 nil
-adventure-in-core-logic.nani> (put 'apple)
+adventure-in-core-logic.nani=> (put 'apple)
 Putting apple down
 nil
-adventure-in-core-logic.nani> (inventory)
+adventure-in-core-logic.nani=> (inventory)
 You have: 
 computer
 nil
-adventure-in-core-logic.nani> (goto 'kitchen)
+adventure-in-core-logic.nani=> (goto 'kitchen)
 You are in the kitchen
 You can see: 
    crackers
@@ -85,6 +85,6 @@ You can go to:
    dining_room
    office
 nil
-adventure-in-core-logic.nani> (run* [q] (is_contained_in q 'desk))
+adventure-in-core-logic.nani=> (run* [q] (is_contained_in q 'desk))
 (flashlight envelope key stamp)
 ```
