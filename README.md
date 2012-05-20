@@ -1,20 +1,19 @@
 # Adventure in Clojure core.logic
 
-Incomplete !!!
+Inspired by Adventure in Prolog
 
-You need core.logic-0.6.8-SNAPSHOT because "retraction" isn't available in 0.6.7
-
-git clone https://github.com/clojure/core.logic.git
-mvn install 
+INCOMPLETE!!!
 
 ## License
 
-Copyright (C) 2012 FIXME
+Copyright (C) 2012 Darko Mikulic
 
 Distributed under the Eclipse Public License, the same as Clojure.
 
 
 ## Example run
+
+nani.clj
 
 adventure-in-core-logic.nani> (look)
 You are in the kitchen
